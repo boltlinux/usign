@@ -1,0 +1,15 @@
+Source: usign
+Section: admin
+Priority: optional
+Maintainer: Tobias Koch <tobias.koch@gmail.com>
+Build-Depends:
+ debhelper (>= 11),
+ cmake
+Standards-Version: 4.1.3
+Homepage: https://openwrt.org/packages/pkgdata/usign
+
+Package: usign
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Tiny signature verification utility
+ Tiny signature verification utility
